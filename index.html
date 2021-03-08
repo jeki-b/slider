@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/66974bb2f0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <div class="completed-projects">
+          <div class="project-header">
+            Completed<br />projects
+          </div>
+          <div class="project-content">
+            <p>
+              Only a small part of the work performed by our company is
+              presented on the site. For 14 years on in the construction market
+              we have made happy more than 1000 families
+            </p>
+          </div>
+          <div class="project-info">
+            <div class="info-container">
+              <div class="city-info">
+                <div class="title-header">City:</div>
+                <div class="title-content">Rostov-on-Don <br>LCD admiral</div>
+              </div>
+              <div class="apart-info">
+                <div class="title-header">apartment area:</div>
+                <div class="title-content">81 m2</div>
+              </div>
+              <div class="repair-info">
+                <div class="title-header">Repair time:</div>
+                <div class="title-content">3.5 months</div>
+              </div>
+              <div class="cost-info">
+                <div class="title-header">Repair Cost:</div>
+                <div class="title-content">Upon request</div>
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="city-info">
+                <div class="title-header">City:</div>
+                <div class="title-content">Sochi<br>Thieves</div>
+              </div>
+              <div class="apart-info">
+                <div class="title-header">apartment area:</div>
+                <div class="title-content">105 m2</div>
+              </div>
+              <div class="repair-info">
+                <div class="title-header">Repair time:</div>
+                <div class="title-content">4 months</div>
+              </div>
+              <div class="cost-info">
+                <div class="title-header">Repair Cost:</div>
+                <div class="title-content">Upon request</div>
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="city-info">
+                <div class="title-header">City:</div>
+                <div class="title-content">Rostov-on-Don <br>Patriotic</div>
+              </div>
+              <div class="apart-info">
+                <div class="title-header">apartment area:</div>
+                <div class="title-content">93 m2</div>
+              </div>
+              <div class="repair-info">
+                <div class="title-header">Repair time:</div>
+                <div class="title-content">3 months</div>
+              </div>
+              <div class="cost-info">
+                <div class="title-header">Repair Cost:</div>
+                <div class="title-content">Upon request</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="controlers">
+              <div class="left-arrow" onclick="previousSlide()"><i class="fas fa-arrow-left"></i></div>
+              <div class="slider-items">
+                <div class="item item1" onclick="currentSlide(1)"></div>
+                <div class="item item1" onclick="currentSlide(2)"></div>
+                <div class="item item1" onclick="currentSlide(3)"></div>
+              </div>
+              <div class="right-arrow" onclick="nextSlide()"><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+        <div class="apartment-areas">
+          <div class="apartment-header">
+            <div class="place-city active" onclick="currentSlide(1)">Rostov-on-Don, Admiral</div>
+            <div class="place-city" onclick="currentSlide(2)">Sochi Thieves</div>
+            <div class="place-city" onclick="currentSlide(3)">Rostov-on-Don Patriotic</div>
+          </div>
+          <div class="apartment-images">
+            <div class="apart-img">
+              <img src="../slider/images/image 1.png" alt="first">
+            </div>
+            <div class="apart-img">
+              <img src="../slider/images/image 2.png" alt="second">
+            </div>
+            <div class="apart-img">
+              <img src="../slider/images/image 3.png" alt="third">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
